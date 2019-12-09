@@ -1,0 +1,8 @@
+<button (click)='getCards()'>Load Deck</button>
+<button (click)='addCard()'>Add New Card</button>
+
+<p>--------------------------- Our Deck ---------------------------</p>
+<div *ngFor="let c of cards">
+    {{c.id}}---{{c.name}}---hello
+</div>
+<p>--------------------------- -------- ---------------------------</p>
